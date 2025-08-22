@@ -16,13 +16,13 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId) => {
+  /*const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
     setIsOpen(false);
-  };
+  };*/
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
