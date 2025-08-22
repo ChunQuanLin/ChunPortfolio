@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ChunPortfolio/static/css/main.24e995eb.css",
-    "main.js": "/ChunPortfolio/static/js/main.4897eac8.js",
+    "main.js": "/ChunPortfolio/static/js/main.79648419.js",
     "index.html": "/ChunPortfolio/index.html",
     "main.24e995eb.css.map": "/ChunPortfolio/static/css/main.24e995eb.css.map",
-    "main.4897eac8.js.map": "/ChunPortfolio/static/js/main.4897eac8.js.map"
+    "main.79648419.js.map": "/ChunPortfolio/static/js/main.79648419.js.map"
   },
   "entrypoints": [
     "static/css/main.24e995eb.css",
-    "static/js/main.4897eac8.js"
+    "static/js/main.79648419.js"
   ]
 }

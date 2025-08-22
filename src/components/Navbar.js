@@ -33,11 +33,11 @@ const Navbar = () => {
           </div>
           
           <div className={`nav-links ${isOpen ? 'active' : ''}`}>
-            <a onClick={() => scrollToSection('about')}>About</a>
+            {/*<a onClick={() => scrollToSection('about')}>About</a>
             <a onClick={() => scrollToSection('skills')}>Skills</a>
             <a onClick={() => scrollToSection('projects')}>Projects</a>
             <a onClick={() => scrollToSection('photography')}>Photography</a>
-            <a onClick={() => scrollToSection('contact')}>Contact</a>
+            <a onClick={() => scrollToSection('contact')}>Contact</a>*/}
           </div>
 
           <div className="nav-toggle" onClick={() => setIsOpen(!isOpen)}>

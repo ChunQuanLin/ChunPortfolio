@@ -1,7 +1,7 @@
 {
   "name": "chun-lin-portfolio",
   "version": "1.0.0",
-  "homepage": "https://michael94ellis.github.io/ChunPortfolio/",
+  "homepage": "https://chunquanlin.github.io/ChunPortfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
