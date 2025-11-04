@@ -18,7 +18,7 @@ const Photography = () => {
   const photos = [
     {
       id: 1,
-      src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop',
+      src: 'https://live.staticflickr.com/65535/54902490125_3b72c81668_b.jpg',
       title: 'Mountain Vista',
       category: 'landscape',
       likes: 245,
