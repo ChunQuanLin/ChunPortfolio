@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Instagram, Heart } from 'lucide-react';
@@ -61,11 +62,11 @@ const Footer = () => {
           >
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="#about">About</a></li>
+              {/!*<li><a href="#about">About</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#photography">Photography</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>*!/}
             </ul>
           </motion.div>
         </div>
@@ -87,5 +88,4 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
+*/

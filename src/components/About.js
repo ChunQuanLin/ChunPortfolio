@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code, Camera, Coffee, Globe } from 'lucide-react';
@@ -98,5 +99,4 @@ const About = () => {
     </section>
   );
 };
-
-export default About;
+*/

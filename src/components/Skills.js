@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Skills.css';
@@ -107,3 +108,4 @@ const Skills = () => {
 };
 
 export default Skills;
+*/

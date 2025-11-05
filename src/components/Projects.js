@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Code, Globe, Database } from 'lucide-react';
@@ -148,5 +149,4 @@ const Projects = () => {
     </section>
   );
 };
-
-export default Projects;
+*/

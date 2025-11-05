@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {motion, AnimatePresence} from 'framer-motion';
-import {Camera, Heart, Eye, Download} from 'lucide-react';
+import {Camera} from 'lucide-react';
 import './Photography.css';
 
 const Photography = () => {
