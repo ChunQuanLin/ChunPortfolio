@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import {ArrowDown, Github, Linkedin, Mail} from 'lucide-react';
+import {ArrowDown, Mail} from 'lucide-react';
 import './Hero.css';
 import Photography from "./Photography";
 
