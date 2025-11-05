@@ -86,7 +86,7 @@ const Photography = () => {
     return (
         <section id="photography" className="section photography-section">
             <div className="container">
-                <motion.div
+                {/*<motion.div
                     initial={{opacity: 0, y: 30}}
                     whileInView={{opacity: 1, y: 0}}
                     transition={{duration: 0.8}}
@@ -94,7 +94,7 @@ const Photography = () => {
                 >
                     <h2 className="section-title">Photography</h2>
                     <p className="section-subtitle">Capturing life</p>
-                </motion.div>
+                </motion.div>*/}
 
                 <motion.div
                     className="photography-intro"
@@ -106,11 +106,18 @@ const Photography = () => {
                     <div className="intro-content">
                         <Camera size={48} className="intro-icon"/>
                         <p>
-                            My passion for photography started when I was a young child where I developed a love for the
-                            visual arts. It started with drawing via pen and paper and in 2020 I got my first dedicated
-                            camera. From then
-                            on, I decided I will record as many of life's moments as possible because precious
-                            memories make the best treasure.
+                            Most of these photos are my personal photos taken over the past few years. They're either
+                            from trips to a new location or an event, such as a concert. For the most part, I do not
+                            stay
+                            in one place to take my photos so a lot of them are unplanned and completely taken in the
+                            moment. A few photos are staged and I hope to get more of those in the near future. Almost
+                            all the photos have been taken with my Fuji XT4 camera but I just got the GFX 50Sii so newer
+                            photos will come from either camera. On occasion, when I need the speed and size, I will use
+                            my Ricoh GRiii. While I typically just use natural light for my photos to keep my bag
+                            lighter and because I am outside most of the time, I do have a Godox flash and some Neewer
+                            studio lights. I do not have a personal studio but I am very open to shooting anywhere and
+                            everywhere, not to mention renting a place is also easily doable. I hope you enjoy these as
+                            much as I did taking them!
                         </p>
                     </div>
                 </motion.div>

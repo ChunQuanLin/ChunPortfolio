@@ -30,11 +30,11 @@ const Hero = () => {
                         </h2>
                         <p className="hero-description">
                             My passion for photography started when I was a young child where I developed a love for the
-                            visual arts. It started with drawing via pen and paper and in 2020 I got my first dedicated
+                            visual arts. It started with drawing via pen and paper and bloomed in 2020 when I got my first dedicated
                             camera. From then
                             on, I decided I will record as many of life's moments as possible because precious
                             memories make the best treasure.
-
+                            <line/>
                             If you are interested in joining me in photography, such as a photowalk for example, or want
                             me to take pictures for you, please reach out!
                         </p>

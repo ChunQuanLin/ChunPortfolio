@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import {Mail, MapPin, Send, Instagram, FacebookIcon} from 'lucide-react';
+import {Mail, MapPin, Send} from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
@@ -47,10 +47,10 @@ const Contact = () => {
     }
   ];
 
-  const socialLinks = [
+  /*const socialLinks = [
     { icon: <FacebookIcon />, url: '', label: 'TBD' },
     { icon: <Instagram />, url: '', label: 'TBD' }
-  ];
+  ];*/
 
   return (
     <section id="contact" className="section contact-section">
@@ -99,7 +99,7 @@ const Contact = () => {
               ))}
             </div>
 
-            <div className="social-links">
+            {/*<div className="social-links">
               <h4>Follow Me</h4>
               <div className="social-icons">
                 {socialLinks.map((social, index) => (
@@ -116,7 +116,7 @@ const Contact = () => {
                   </motion.a>
                 ))}
               </div>
-            </div>
+            </div>*/}
           </motion.div>
 
           <motion.div
