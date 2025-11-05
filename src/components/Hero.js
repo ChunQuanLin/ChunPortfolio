@@ -34,7 +34,7 @@ const Hero = () => {
                             camera. From then
                             on, I decided I will record as many of life's moments as possible because precious
                             memories make the best treasure.
-                            <line/>
+                            <br>
                             If you are interested in joining me in photography, such as a photowalk for example, or want
                             me to take pictures for you, please reach out!
                         </p>
