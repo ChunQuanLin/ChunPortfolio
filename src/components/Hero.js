@@ -1,8 +1,7 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import {ArrowDown, Mail} from 'lucide-react';
+import {ArrowDown, CameraIcon, Mail} from 'lucide-react';
 import './Hero.css';
-import Photography from "./Photography";
 
 const Hero = () => {
     const scrollToAbout = () => {
@@ -27,7 +26,7 @@ const Hero = () => {
                             Hi, I'm <span className="highlight">Chun Lin</span>
                         </h1>
                         <h2 className="hero-subtitle">
-                            Photographer
+                            A Photographer
                         </h2>
                         <p className="hero-description">
                             My passion for photography started when I was a young child where I developed a love for the
@@ -47,7 +46,7 @@ const Hero = () => {
                                 whileHover={{scale: 1.05}}
                                 whileTap={{scale: 0.95}}
                             >
-                                View My Work
+                                View My Photos
                             </motion.a>
                             <motion.a
                                 href="#contact"
@@ -55,7 +54,7 @@ const Hero = () => {
                                 whileHover={{scale: 1.05}}
                                 whileTap={{scale: 0.95}}
                             >
-                                Get In Touch
+                                My Contact Info
                             </motion.a>
                         </div>
 
@@ -67,7 +66,7 @@ const Hero = () => {
                                 whileHover={{scale: 1.1}}
                                 whileTap={{scale: 0.9}}
                             >
-                                <Photography size={24}/>
+                                <CameraIcon size={24}/>
                             </motion.a>
                             <motion.a
                                 href="mailto:chunqlin@icloud.com"
