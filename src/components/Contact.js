@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Instagram } from 'lucide-react';
+import {Mail, MapPin, Send, Instagram, FacebookIcon} from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
@@ -36,27 +36,20 @@ const Contact = () => {
     {
       icon: <Mail />,
       title: 'Email',
-      value: 'chun.lin@email.com',
-      link: 'mailto:chun.lin@email.com'
-    },
-    {
-      icon: <Phone />,
-      title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: 'chunqlin@icloud.com',
+      link: 'mailto:chunqlin@icloud.com'
     },
     {
       icon: <MapPin />,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Dallas, TX',
       link: null
     }
   ];
 
   const socialLinks = [
-    { icon: <Github />, url: 'https://github.com', label: 'GitHub' },
-    { icon: <Linkedin />, url: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: <Instagram />, url: 'https://instagram.com', label: 'Instagram' }
+    { icon: <FacebookIcon />, url: '', label: 'TBD' },
+    { icon: <Instagram />, url: '', label: 'TBD' }
   ];
 
   return (
@@ -68,8 +61,7 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="section-title">Get In Touch</h2>
-          <p className="section-subtitle">Let's work together</p>
+          <h2 className="section-title">Contact Me</h2>
         </motion.div>
 
         <div className="contact-content">
@@ -80,10 +72,8 @@ const Contact = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3>Let's Connect</h3>
             <p>
-              I'm always open to discussing new opportunities, interesting projects, 
-              creative ideas, or just to say hello. Feel free to reach out!
+              I'm always open for new chances to capture memories together!
             </p>
 
             <div className="contact-details">
